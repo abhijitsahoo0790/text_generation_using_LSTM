@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on %(date)s
+Created on 16 July, 2020
 
-@author: %(username)s
+@author: Abhijit
 """
 import pandas as pd
 import numpy as np
@@ -42,6 +42,22 @@ def fetch_the_corpora_using_NLTK():
     return brown_natural
 
 def enumerate_text_wrt_word_enum_dict(unified_corpora, word_enum_dict):
+    """
+    Enumerate the complete text in corpous using word_enum_dict
+
+    Parameters
+    ----------
+    unified_corpora : TYPE
+        DESCRIPTION.
+    word_enum_dict : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    complete_text_enumerated : TYPE
+        DESCRIPTION.
+
+    """
     complete_text = " ".join(unified_corpora)
     complete_text_processed = re.sub(' +', ' ', re.sub('[^A-Za-z ]+', ' ',complete_text.lower())).strip()
     complete_text_enumerated =  [word_enum_dict[item] for item in complete_text_processed.split(" ") if item in word_enum_dict]   
