@@ -1,0 +1,125 @@
+2020-07-16 18:40:34 INFO     executing argv ['perl', 'C:\\Users\\abhiom\\Anaconda3\\lib\\site-packages\\mosestokenizer\\detokenizer.perl', '-q', '-b', '-l', 'en']
+2020-07-16 18:40:34 WARNING  stdbuf was not found; communication with perl may hang due to stdio buffering.
+2020-07-16 18:41:50 INFO     executing argv ['perl', 'C:\\Users\\abhiom\\Anaconda3\\lib\\site-packages\\mosestokenizer\\detokenizer.perl', '-q', '-b', '-l', 'en']
+2020-07-16 18:41:50 WARNING  stdbuf was not found; communication with perl may hang due to stdio buffering.
+2020-07-16 18:42:31 INFO     executing argv ['perl', 'C:\\Users\\abhiom\\Anaconda3\\lib\\site-packages\\mosestokenizer\\detokenizer.perl', '-q', '-b', '-l', 'en']
+2020-07-16 18:42:31 WARNING  stdbuf was not found; communication with perl may hang due to stdio buffering.
+2020-07-16 18:57:30 INFO     Fetching text corpus...
+2020-07-16 18:57:30 INFO     Downloaded Brown corpus
+2020-07-16 18:57:39 INFO     Processed Brown corpus as text
+2020-07-16 18:57:39 INFO     Fetched text corpus...
+2020-07-16 18:58:18 INFO     Fetching text corpus...
+2020-07-16 18:58:18 INFO     True
+2020-07-16 18:58:18 INFO     Downloaded Brown corpus
+2020-07-16 18:58:26 INFO     Processed Brown corpus as text
+2020-07-16 18:58:26 INFO     Fetched text corpus...
+2020-07-16 18:58:33 INFO     Fetching text corpus...
+2020-07-16 18:58:33 INFO     True
+2020-07-16 18:58:33 INFO     Downloaded Brown corpus
+2020-07-16 18:58:42 INFO     Processed Brown corpus as text
+2020-07-16 18:58:42 INFO     Fetched text corpus...
+2020-07-16 19:05:28 INFO     Fetching text corpus...
+2020-07-16 19:05:28 INFO     True
+2020-07-16 19:05:28 INFO     Downloaded Brown corpus
+2020-07-16 19:05:36 INFO     Processed Brown corpus as text
+2020-07-16 19:05:36 INFO     Fetched text corpus...
+2020-07-16 19:07:34 INFO     Fetching text corpus...
+2020-07-16 19:07:34 INFO     Downloaded Brown corpus
+2020-07-16 19:07:42 INFO     Processed Brown corpus as text
+2020-07-16 19:07:42 INFO     Fetched text corpus...
+2020-07-16 19:21:56 INFO     Fetching text corpus...
+2020-07-16 19:21:56 INFO     Downloaded Brown corpus
+2020-07-16 19:22:05 INFO     Processed Brown corpus as text
+2020-07-16 19:22:05 INFO     Fetched text corpus
+2020-07-16 19:22:30 INFO     Fetching text corpus...
+2020-07-16 19:22:30 INFO     Downloaded Brown corpus
+2020-07-16 19:22:38 INFO     Processed Brown corpus as text
+2020-07-16 19:22:38 INFO     Fetched text corpus
+2020-07-16 19:29:14 INFO     Fetching text corpus...
+2020-07-16 19:29:14 INFO     Downloaded Brown corpus
+2020-07-16 19:29:22 INFO     Processed Brown corpus as text
+2020-07-16 19:29:22 INFO     Fetched text corpus
+2020-07-16 19:32:12 INFO     Fetching text corpus...
+2020-07-16 19:32:12 INFO     Downloaded Brown corpus
+2020-07-16 19:32:20 INFO     Processed Brown corpus as text
+2020-07-16 19:32:21 INFO     Fetched text corpus
+2020-07-16 19:32:41 INFO     Fetching text corpus...
+2020-07-16 19:32:41 INFO     Downloaded Brown corpus
+2020-07-16 19:32:50 INFO     Processed Brown corpus as text
+2020-07-16 19:32:50 INFO     Fetched text corpus
+2020-07-16 19:34:33 INFO     Fetching text corpus...
+2020-07-16 19:34:33 INFO     Downloaded Brown corpus
+2020-07-16 19:34:41 INFO     Processed Brown corpus as text
+2020-07-16 19:34:41 INFO     Fetched text corpus
+2020-07-16 19:35:42 INFO     Fetching text corpus...
+2020-07-16 19:35:42 INFO     Downloaded Brown corpus
+2020-07-16 19:35:52 INFO     Processed Brown corpus as text
+2020-07-16 19:35:52 INFO     Fetched text corpus
+2020-07-16 19:36:14 INFO     Fetching text corpus...
+2020-07-16 19:36:14 INFO     Downloaded Brown corpus
+2020-07-16 19:36:22 INFO     Processed Brown corpus as text
+2020-07-16 19:36:22 INFO     Fetched text corpus
+2020-07-16 19:38:08 INFO     Fetching text corpus...
+2020-07-16 19:38:08 INFO     Downloaded Brown corpus
+2020-07-16 19:38:16 INFO     Processed Brown corpus as text
+2020-07-16 19:38:16 INFO     Fetched text corpus
+2020-07-16 19:38:50 INFO     Fetching text corpus...
+2020-07-16 19:38:50 INFO     Downloaded Brown corpus
+2020-07-16 19:38:58 INFO     Processed Brown corpus as text
+2020-07-16 19:38:58 INFO     Fetched text corpus
+2020-07-16 19:39:39 INFO     Fetching text corpus...
+2020-07-16 19:39:39 INFO     Fetched text corpus
+2020-07-16 19:49:16 INFO     Fetching text corpus...
+2020-07-16 19:49:16 INFO     Fetched text corpus
+2020-07-16 19:49:57 INFO     Fetching text corpus...
+2020-07-16 19:49:57 INFO     Fetched text corpus
+2020-07-16 19:50:06 INFO     Fetching text corpus...
+2020-07-16 19:50:06 INFO     Fetched text corpus
+2020-07-16 19:50:12 INFO     Fetching text corpus...
+2020-07-16 19:50:12 INFO     Fetched text corpus
+2020-07-16 19:50:52 INFO     Fetching text corpus...
+2020-07-16 19:50:53 INFO     Downloaded Brown corpus
+2020-07-16 19:51:02 INFO     Processed Brown corpus as text
+2020-07-16 19:51:02 INFO     Fetched text corpus
+2020-07-16 19:51:07 INFO     Fetching text corpus...
+2020-07-16 19:51:07 INFO     Fetched text corpus
+2020-07-16 19:54:06 INFO     Fetching text corpus...
+2020-07-16 19:54:06 INFO     Downloaded Brown corpus
+2020-07-16 19:54:14 INFO     Processed Brown corpus as text
+2020-07-16 19:54:14 INFO     Fetched text corpus
+2020-07-16 19:57:59 INFO     Fetching text corpus...
+2020-07-16 19:57:59 INFO     Downloaded Brown corpus
+2020-07-16 19:58:07 INFO     Processed Brown corpus as text
+2020-07-16 19:58:07 INFO     Fetched text corpus
+2020-07-16 20:36:06 INFO     Fetching text corpus...
+2020-07-16 20:36:06 INFO     Downloaded Brown corpus
+2020-07-16 20:36:15 INFO     Processed Brown corpus as text
+2020-07-16 20:36:15 INFO     Fetched text corpus
+2020-07-16 20:38:37 INFO     Fetching text corpus...
+2020-07-16 20:38:37 INFO     Downloaded Brown corpus
+2020-07-16 20:38:45 INFO     Processed Brown corpus as text
+2020-07-16 20:38:45 INFO     Fetched text corpus
+2020-07-16 20:40:21 INFO     Fetching text corpus...
+2020-07-16 20:40:21 INFO     Downloaded Brown corpus
+2020-07-16 20:40:30 INFO     Processed Brown corpus as text
+2020-07-16 20:40:30 INFO     Fetched text corpus
+2020-07-16 20:44:53 INFO     Fetching text corpus...
+2020-07-16 20:44:53 INFO     Downloaded Brown corpus
+2020-07-16 20:45:01 INFO     Processed Brown corpus as text
+2020-07-16 20:45:01 INFO     Fetched text corpus
+2020-07-16 20:54:56 INFO     Fetching text corpus...
+2020-07-16 20:54:57 INFO     Downloaded Brown corpus
+2020-07-16 20:55:06 INFO     Processed Brown corpus as text
+2020-07-16 20:55:06 INFO     Fetched text corpus
+2020-07-16 20:56:06 INFO     Fetching text corpus...
+2020-07-16 20:56:06 INFO     Downloaded Brown corpus
+2020-07-16 20:56:15 INFO     Processed Brown corpus as text
+2020-07-16 20:56:15 INFO     Fetched text corpus
+2020-07-16 20:56:50 INFO     Fetching text corpus...
+2020-07-16 20:56:50 INFO     Downloaded Brown corpus
+2020-07-16 20:56:59 INFO     Processed Brown corpus as text
+2020-07-16 20:56:59 INFO     Fetched text corpus
+2020-07-16 20:58:43 INFO     Fetching text corpus...
+2020-07-16 20:58:43 INFO     Downloaded Brown corpus
+2020-07-16 20:58:51 INFO     Processed Brown corpus as text
+2020-07-16 20:58:51 INFO     Fetched text corpus
