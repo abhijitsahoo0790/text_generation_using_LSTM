@@ -9,6 +9,12 @@ import numpy as np
 import nltk
 from nltk.corpus import brown
 from nltk.tokenize.treebank import TreebankWordDetokenizer
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.callbacks import ModelCheckpoint
+from keras.utils import np_utils
 import re
 import copy
 import math
@@ -67,7 +73,7 @@ def enumerate_text_using_word_enum_dict(unified_corpora, word_enum_dict):
     complete_text_enumerated =  [word_enum_dict[item] for item in complete_text_processed.split(" ") if item in word_enum_dict]   
     return complete_text_enumerated
 
-def enumerate_unique_words(unified_corpora):
+def enumerate_unique_words(text_corpus):
     """
     Enumerate unique words and return its dictionary and reversed-dictionary
 
@@ -88,7 +94,7 @@ def enumerate_unique_words(unified_corpora):
     Join all sentences, remove special characters except Space, split all 
     words, take set for unique words, convert it to list, remove None values using filter
     """
-    unique_words = list(filter(None, list(set(re.sub('[^A-Za-z ]+', ' ', (''.join(unified_corpora).lower())).split(" ")))))
+    unique_words = list(filter(None, list(set(re.sub('[^A-Za-z ]+', ' ', (text_corpus)).split(" ")))))
     unique_words = unique_words + [START_DELIMITER, END_DELIMITER]
     #enumerate unique words
     word_enum_dict = {v:k for k,v in enumerate(unique_words)}
@@ -125,13 +131,54 @@ def generate_sequence_data_for_LSTM(complete_text_enumerated):
     return [X, y]
 
 
+def remove_special_chars(text):
+    """
+    Remove all special characters except space and remove extra spaces. 
+
+    Parameters
+    ----------
+    text : str
+        Any text
+
+    Returns
+    -------
+    text : str
+        Processed text
+    """
+    
+    text = re.sub(' +', ' ', re.sub('[^A-Za-z ]+', ' ', text).strip())
+    return text
+
+def fetch_corpous_from_file(filepath):    
+    """
+    Read a corpus and do basic processing.
+
+    Parameters
+    ----------
+    filepath : str
+        Path of the text corpus
+
+    Returns
+    -------
+    corpus_list_sent_processed : list of str
+        processed corpus in form of list of str.
+
+    """
+    f = open(filepath, 'r')
+    corpus_text = f.read()    
+    corpus_sentence_list = corpus_text.lower().split('.')
+    corpus_list_sent_processed = [remove_special_chars(item) for item in corpus_sentence_list if len(item)>1] 
+    return corpus_list_sent_processed
+
+
 if __name__ == "__main__":
     logging.info("Fetching text corpus...")
-    unified_corpora = fetch_the_corpora_using_NLTK()    
+    # unified_corpora = fetch_the_corpora_using_NLTK() 
+    unified_corpora = fetch_corpous_from_file("data/republic.txt")  
     logging.info("Fetched text corpus")
     
     # Enumerate unique words
-    [word_enum_dict, reversed_word_enum_dict] = enumerate_unique_words(unified_corpora)
+    [word_enum_dict, reversed_word_enum_dict] = enumerate_unique_words(" ".join(unified_corpora))
     # Enumerate text using word_enum_dict
     complete_text_enumerated = enumerate_text_using_word_enum_dict(unified_corpora, word_enum_dict)
     # generate sequence data for training LSTM
